@@ -1,0 +1,52 @@
+fieldset {
+	border: 0;
+	outline: 0;
+}
+
+legend {
+	color: #7d7873;
+	overflow: auto;
+}
+
+legend h1 {
+	margin: 20px 0;
+}
+
+label {
+	display: block;
+	text-align: left;
+	margin-top: 15px;
+}
+
+label strong {
+	display: block;
+	font-weight: normal;
+	font-size: 24px;
+	color: #6c6c6c;
+}
+
+label span {
+	color: #b4aba0;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1.1px;
+}
+
+input, textarea {
+	width: 400px;
+	background: transparent;
+	border: 1px solid #e9e0d5;
+	outline: 1px solid #f8f5f1;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+input:focus, textarea:focus {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+textarea {
+	min-height: 94px;
+	resize: vertical;
+}

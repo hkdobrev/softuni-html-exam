@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>03 Letter</title>
+	<link rel="stylesheet" href="styles/global/helpers.css">
+	<link rel="stylesheet" href="styles/global/layout.css">
+	<link rel="stylesheet" href="styles/global/typography.css">
+	<link rel="stylesheet" href="styles/sections/letter.css">
+	<link rel="stylesheet" href="styles/shared/forms.css">
+</head>
+<body>
+	<form action="mailto:" method="GET">
+		<fieldset>
+			<legend class="text-center">
+				<h1>Send a Message</h1>
+			</legend>
+			<section class="letter text-center">
+				<div class="letterbox-back"></div>
+				<div class="letterbox-front"></div>
+				<div class="paper">
+					<div class="form-row">
+						<label for="body">
+							<strong>Hello,</strong>
+							<span>Your message:</span>
+						</label>
+						<textarea
+							name="body" id="body"
+							cols="40" rows="5"
+							tabindex="1"></textarea>
+					</div>
+					<div class="form-row">
+						<label for="name">
+							<strong>Best,</strong>
+							<span>Name:</span>
+						</label>
+						<input type="text" name="name" id="name" tabindex="2">
+					</div>
+					<div class="form-row">
+						<label for="email">
+							<span>Email:</span>
+						</label>
+						<input type="email" id="email" tabindex="3">
+					</div>
+					<div class="form-row">
+						<button type="submit" tabindex="4">Send Message</button>
+					</div>
+				</div>
+			</section>
+		</fieldset>
+	</form>
+</body>
+</html>

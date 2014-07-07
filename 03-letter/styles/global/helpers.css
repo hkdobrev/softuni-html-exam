@@ -1,0 +1,13 @@
+.clear::after {
+	display: table;
+	clear: both;
+	content: " ";
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
