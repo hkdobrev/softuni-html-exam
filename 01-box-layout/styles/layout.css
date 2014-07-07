@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 10px;
+	max-width: calc(280px * 2 + 10px);
+}
+
+article {
+	float: left;
+	width: 280px;
+	box-sizing: border-box;
+	padding: 7px;
+	margin-top: 10px;
+
+	border: 1px solid #ccc;
+
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+article:nth-child(2n) {
+	margin-left: 10px;
+}
+
+article:first-child, article:nth-child(2) {
+	margin-top: 0;
+}
+
+img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
