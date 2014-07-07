@@ -1,0 +1,27 @@
+.schedule-month-header {
+	border-bottom: 1px solid #ddd;
+}
+.schedule-month-header h2 {
+	font-size: 18px;
+}
+
+.table-schedule {
+	border-spacing: 20px
+}
+
+.table-schedule tbody {
+	font-weight: 300;
+}
+
+.table-schedule a, .table-schedule a:visited {
+	color: #bb0000;
+	text-decoration: none;
+	border-bottom: 1px dotted #ff4c2a;
+}
+
+.table-schedule a:hover {
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	transition: border-style 1s;
+	color: #030000;
+}

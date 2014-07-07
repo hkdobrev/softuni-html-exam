@@ -1,0 +1,31 @@
+.title-main {
+	background-color: #f24d2e;
+}
+
+.nav-header {
+	width: 456px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	letter-spacing: 0.9px;
+}
+
+.nav-header li + li {
+	margin-left: 25px;
+}
+
+.nav-header a {
+	color: #666;
+	font-size: 24px;
+}
+
+.nav-header .active {
+	background-color: #ff4c2a;
+}
+
+.nav-header .active a {
+	color: white;
+}
+
+.nav-header a:hover {
+	color: #030303;
+}

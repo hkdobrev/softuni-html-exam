@@ -1,0 +1,63 @@
+/**
+ * Different font formats for the different browsers
+ * If the user has added the font, load it locally, otherwise fetch it.
+ *
+ * Converted to different formats with FontSquirrel.
+ * http://www.fontsquirrel.com/tools/webfont-generator
+ */
+@font-face {
+	font-family: 'Fairview';
+	src:
+		local('Fairview-Regular'),
+		url('../../fonts/Fairview_Regular.eot');
+	src:
+		local('Fairview-Regular'),
+		url('../../fonts/Fairview_Regular.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/Fairview_Regular.woff') format('woff'),
+		url('../../fonts/Fairview_Regular.ttf') format('truetype'),
+		url('../../fonts/Fairview_Regular.svg#fairviewregular') format('svg');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "Nunito", Arial, sans-serif;
+}
+
+h1 {
+	margin: 0;
+}
+
+a, a:hover, a:visited, a:focus {
+	color: #aaa;
+}
+
+.title-main {
+	font-size: 124px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.title-main a, .title-main a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.title-main a:hover, .title-main a:focus {
+	color: black;
+	transition: color 1s;
+}
+
+.title-main, .nav-header a {
+	font-family: "Fairview", Helvetica, sans-serif;
+}
+
+time[title] {
+	border-bottom: 1px dotted #eee;
+	cursor: pointer;
+}
+
+header time[title] {
+	border: 0;
+}

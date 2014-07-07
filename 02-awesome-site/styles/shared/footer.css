@@ -1,0 +1,46 @@
+#footer {
+	background-color: #222;
+}
+
+.nav-footer {
+	width: 390px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.nav-footer a, .address a:hover {
+	color: #aaa;
+}
+
+.nav-footer a {
+	font-size: 14px;
+}
+
+.nav-footer .active a {
+	color: white;
+}
+
+.nav-footer li:hover {
+	background-color: #aaa;
+}
+
+.nav-footer li:hover a {
+	color: #ba0000;
+}
+
+#footer hr {
+	margin: 10px auto;
+	width: 785px;
+	border-width: 1px;
+	border-color: #444;
+	border-top: 0;
+}
+
+.address {
+	font-size: 12px;
+	font-style: normal;
+}
+
+.address a {
+	color: #555;
+}

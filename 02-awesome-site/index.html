@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Awesome site</title>
+	<link rel="stylesheet" href="styles/global/helpers.css">
 	<link rel="stylesheet" href="styles/global/layout.css">
+	<link href="http://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="styles/global/typography.css">
 	<link rel="stylesheet" href="styles/components/navigation.css">
 	<link rel="stylesheet" href="styles/sections/schedule.css">
@@ -11,10 +13,10 @@
 	<link rel="stylesheet" href="styles/shared/footer.css">
 </head>
 <body>
-	<header>
-		<h1><a href="#">Awesome Site</a></h1>
+	<header id="header" class="clear text-center">
+		<h1 class="title-main"><a href="#">Awesome Site</a></h1>
 		<nav>
-			<ul>
+			<ul class="nav nav-header clear">
 				<li><a href="#">Blog</a></li>
 				<li><a href="#">About</a></li>
 				<li class="active"><a href="#">Schedule</a></li>
@@ -23,17 +25,17 @@
 			</ul>
 		</nav>
 	</header>
-	<section role="main">
-		<header>
+	<section role="main" id="content">
+		<header class="schedule-header">
 			<h1>Schedule</h1>
 		</header>
-		<article>
-			<header>
+		<article class="schedule-month">
+			<header class="schedule-month-header">
 				<h2>
-					<time datetime="2014-07">July, 2014</time>
+					<time datetime="2014-07" title="2014-07">July, 2014</time>
 				</h2>
 			</header>
-			<table>
+			<table class="table-schedule text-left">
 				<thead>
 					<tr>
 						<th>Date</th>
@@ -44,21 +46,21 @@
 				<tbody>
 					<tr>
 						<td>
-							<time datetime="2014-07-07T10:00:00Z/2014-07-07T20:00:00Z">Monday, July 7th</time>
+							<time datetime="2014-07-07T10:00:00Z/2014-07-07T20:00:00Z" title="2014-07-07T10:00:00Z/2014-07-07T20:00:00Z">Monday, July 7th</time>
 						</td>
 						<td>
-							<time datetime="2014-07-07T10:00:00Z/2014-07-07T20:00:00Z">10 AM - 8 PM</time>
+							<time datetime="2014-07-07T10:00:00Z/2014-07-07T20:00:00Z" title="2014-07-07T10:00:00Z/2014-07-07T20:00:00Z">10 AM - 8 PM</time>
 						</td>
 						<td>
-							<a href="#">Trip to Awesomenia</a>
+							<a href="#">Trip to Awesomnia</a>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<time datetime="2014-07-16T17:00:00Z/2014-07-16T23:00:00Z">Wednesday, July 16th</time>
+							<time datetime="2014-07-16T17:00:00Z/2014-07-16T23:00:00Z" title="2014-07-16T17:00:00Z/2014-07-16T23:00:00Z">Wednesday, July 16th</time>
 						</td>
 						<td>
-							<time datetime="2014-07-16T17:00:00Z/2014-07-16T23:00:00Z">5-11 PM</time>
+							<time datetime="2014-07-16T17:00:00Z/2014-07-16T23:00:00Z" title="2014-07-16T17:00:00Z/2014-07-16T23:00:00Z">5-11 PM</time>
 						</td>
 						<td>
 							<a href="#">Beach Party</a>
@@ -66,10 +68,10 @@
 					</tr>
 					<tr>
 						<td>
-							<time datetime="2014-07-19T10:00:00Z/2014-07-19T20:00:00Z">Sunday, July 19th</time>
+							<time datetime="2014-07-19T10:00:00Z/2014-07-19T20:00:00Z" title="2014-07-19T10:00:00Z/2014-07-19T20:00:00Z">Sunday, July 19th</time>
 						</td>
 						<td>
-							<time datetime="2014-07-19T10:00:00Z/2014-07-19T20:00:00Z">10 AM - 8 PM</time>
+							<time datetime="2014-07-19T10:00:00Z/2014-07-19T20:00:00Z" title="2014-07-19T10:00:00Z/2014-07-19T20:00:00Z">10 AM - 8 PM</time>
 						</td>
 						<td>
 							<a href="#">Mountain Trip</a>
@@ -78,13 +80,13 @@
 				</tbody>
 			</table>
 		</article>
-		<article>
-			<header>
+		<article class="schedule-month">
+			<header class="schedule-month-header">
 				<h2>
-					<time datetime="2014-08">August, 2014</time>
+					<time datetime="2014-08" title="2014-08">August, 2014</time>
 				</h2>
 			</header>
-			<table>
+			<table class="table-schedule text-left">
 				<thead>
 					<tr>
 						<th>Date</th>
@@ -95,10 +97,10 @@
 				<tbody>
 					<tr>
 						<td>
-							<time datetime="2014-08-09T10:00:00Z/2014-08-09T17:00:00Z">Saturday, August 9th</time>
+							<time datetime="2014-08-09T10:00:00Z/2014-08-09T17:00:00Z" title="2014-08-09T10:00:00Z/2014-08-09T17:00:00Z">Saturday, August 9th</time>
 						</td>
 						<td>
-							<time datetime="2014-08-09T10:00:00Z/2014-08-09T17:00:00Z">10 AM - 5 PM</time>
+							<time datetime="2014-08-09T10:00:00Z/2014-08-09T17:00:00Z" title="2014-08-09T10:00:00Z/2014-08-09T17:00:00Z">10 AM - 5 PM</time>
 						</td>
 						<td>
 							<a href="#">Beach Trip</a>
@@ -106,10 +108,10 @@
 					</tr>
 					<tr>
 						<td>
-							<time datetime="2014-08-12T20:00:00Z/2014-08-12T23:00:00Z">Tuesday, August 12th</time>
+							<time datetime="2014-08-12T20:00:00Z/2014-08-12T23:00:00Z" title="2014-08-12T20:00:00Z/2014-08-12T23:00:00Z">Tuesday, August 12th</time>
 						</td>
 						<td>
-							<time datetime="2014-08-12T20:00:00Z/2014-08-12T23:00:00Z">8-11 PM</time>
+							<time datetime="2014-08-12T20:00:00Z/2014-08-12T23:00:00Z" title="2014-08-12T20:00:00Z/2014-08-12T23:00:00Z">8-11 PM</time>
 						</td>
 						<td>
 							<a href="#">Live Music Party</a>
@@ -119,9 +121,9 @@
 			</table>
 		</article>
 	</section>
-	<footer>
+	<footer class="clear" id="footer">
 		<nav>
-			<ul>
+			<ul class="nav nav-footer clear">
 				<li><a href="#">Blog</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Schedule</a></li>
@@ -130,16 +132,25 @@
 			</ul>
 		</nav>
 		<hr>
-		<address>
+		<address class="address text-center">
 			<p>
-				SoftUni
-				<br>
-				26 Vassil Kanchev Str.
-				<br>
-				Sofia, Bulgaria
+				<a
+					href="https://www.google.com/maps/place/Business+Center+%22Stefan+Karadza%22/@42.7094393,23.356151,18z/data=!4m2!3m1!1s0x40aa8f79008363b9:0x5be785fe3c658519"
+					title="SoftUni on the map"
+					target="_blank">
+					SoftUni
+					<br>
+					26 Vassil Kanchev Str.
+					<br>
+					Sofia, Bulgaria
+				</a>
 			</p>
 			<p>
-				<a href="mailto:info@softuni.bg">info@softuni.bg</a>
+				<a
+					href="mailto:info@softuni.bg"
+					target="_blank">
+						info@softuni.bg
+					</a>
 			</p>
 		</address>
 	</footer>
