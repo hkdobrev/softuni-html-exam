@@ -20,6 +20,7 @@
 .letterbox-back, .letterbox-front {
 	position: absolute;
 	width:  530px;
+	pointer-events: none;
 }
 
 .letterbox-back {
