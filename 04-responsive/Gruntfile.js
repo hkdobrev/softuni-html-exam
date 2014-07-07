@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     // Task configuration.
     watch: {
       lib_test: {
-        files: [ 'styles/**/*.css', '*.html' ],
+        files: [ '*.css', '*.html' ],
         tasks: [],
         options: {
         	livereload: true
