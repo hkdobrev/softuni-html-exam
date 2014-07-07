@@ -1,3 +1,8 @@
+.letter {
+	position: relative;
+	min-height: 625px;
+}
+
 .paper {
 	background: url(../../images/letter-background.png) 0 0 repeat;
 	padding: 22px;
@@ -7,4 +12,25 @@
 	border: 1px solid white;
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
+	position: relative;
+	z-index: 3;
+	min-height: 510px;
+}
+
+.letterbox-back, .letterbox-front {
+	position: absolute;
+	width:  530px;
+}
+
+.letterbox-back {
+	background: url(../../images/envelope-top.png) 0 0 no-repeat;
+	z-index: 2;
+	height: 316px;
+	bottom: 128px;
+}
+.letterbox-front {
+	background: url(../../images/envelope-bottom.png) 0 0 no-repeat;
+	z-index: 4;
+	height: 260px;
+	bottom: 0;
 }
