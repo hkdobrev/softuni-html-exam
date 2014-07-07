@@ -1,5 +1,6 @@
 .title-main {
 	background-color: #f24d2e;
+	padding: 0;
 }
 
 .nav-header {
@@ -10,7 +11,7 @@
 }
 
 .nav-header li + li {
-	margin-left: 25px;
+	margin-left: 16px;
 }
 
 .nav-header a {

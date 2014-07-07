@@ -5,8 +5,17 @@
 	font-size: 18px;
 }
 
-.table-schedule {
-	border-spacing: 20px
+.table-schedule td, .table-schedule th {
+	border: 20px solid white;
+	border-width: 10px 20px 10px 20px;
+}
+
+.table-schedule td:first-child, .table-schedule th:first-child {
+	border-left: 0;
+}
+
+.table-schedule td:last-child, .table-schedule th:last-child {
+	border-right: 0;
 }
 
 .table-schedule tbody {

@@ -29,12 +29,16 @@ h1 {
 	margin: 0;
 }
 
+h2 {
+	font-weight: normal;
+}
+
 a, a:hover, a:visited, a:focus {
 	color: #aaa;
 }
 
 .title-main {
-	font-size: 124px;
+	font-size: 120px;
 	letter-spacing: 2px;
 	font-weight: bold;
 }
